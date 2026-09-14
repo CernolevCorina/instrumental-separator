@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "homeTitle": "Instrumental Separator — Split Vocals from Instrumental Online, Free",
+    "homeDescription": "Split vocals from the instrumental in any song right in your browser, free and with no server — upload an audio file and download the instrumental or vocals as MP3 or WAV.",
+    "termsTitle": "Terms & Conditions — Instrumental Separator",
+    "termsDescription": "Terms and conditions of use for Instrumental Separator: user responsibility regarding copyright, local file processing, and limitation of liability."
+  },
+  "nav": {
+    "terms": "Terms & Conditions"
+  },
+  "footer": {
+    "privacy": "100% local processing, right in your browser — your files are never sent to a server."
+  },
+  "hero": {
+    "badge": "✨ Runs 100% in your browser",
+    "title": "Separate <span class=\"hero__gradient\">vocals</span> from the <span class=\"hero__gradient\">instrumental</span>",
+    "subtitle": "Upload a song and get the vocals and instrumental, ready to download, in just a few minutes."
+  },
+  "dropzone": {
+    "titleEmpty": "Drag an audio file here",
+    "hintEmpty": "or click to choose a file (MP3, WAV, etc.)",
+    "hintFilled": "Click or drag another file to replace it"
+  },
+  "termsCheck": {
+    "prefix": "I agree to the",
+    "linkText": "Terms & Conditions",
+    "suffix": "and take full responsibility for the copyright status of the uploaded file."
+  },
+  "actions": {
+    "separate": "Separate vocals from instrumental",
+    "processing": "Processing..."
+  },
+  "status": {
+    "loadingModel": "Downloading the AI model (~172MB, first time only)...",
+    "decoding": "Decoding the audio file...",
+    "separating": "Separating vocals from instrumental...",
+    "done": "Separation complete!"
+  },
+  "error": {
+    "prefix": "Error"
+  },
+  "format": {
+    "label": "Download format"
+  },
+  "results": {
+    "instrumental": "Instrumental",
+    "vocals": "Vocals",
+    "download": "Download"
+  },
+  "terms": {
+    "back": "← Back to the app",
+    "title": "Terms & Conditions",
+    "updated": "Last updated: 2026",
+    "s1": {
+      "title": "1. Service description",
+      "body": "Instrumental Separator is an application that runs entirely in your browser and uses an AI model (demucs-web) to split an audio file into its vocal and instrumental components. The audio file you upload <strong>is never sent to any server</strong> — all processing happens locally, on your device."
+    },
+    "s2": {
+      "title": "2. User responsibility regarding copyright",
+      "body1": "By using this application, <strong>you take full responsibility</strong> for the audio files you upload, process, play, or download. It is your sole responsibility to ensure you hold the necessary rights to the content, or that you have legal permission to process it (for example: your own content, public-domain content, or content covered by an appropriate license).",
+      "body2": "The application does not and cannot verify the copyright status of uploaded files. The developer/operator of the application <strong>assumes no liability</strong> for any copyright infringement, claims, takedown notices, litigation, or other legal disputes that may arise from using the application on copyright-protected content without proper authorization. Any such consequences fall exclusively on the user who uploaded the file."
+    },
+    "s3": {
+      "title": "3. No warranties",
+      "body": "The application is provided \"as is\", without any express or implied warranty regarding the accuracy, quality, or completeness of the audio separation results."
+    },
+    "s4": {
+      "title": "4. Limitation of liability",
+      "body": "To the maximum extent permitted by law, the developer/operator of the application shall not be liable for any direct, indirect, incidental, or other damages resulting from the use or inability to use the application, including but not limited to consequences related to copyright."
+    },
+    "s5": {
+      "title": "5. Acceptance of terms",
+      "body": "By checking the consent box and using the audio separation feature, you confirm that you have read, understood, and agree to these Terms & Conditions in their entirety."
+    }
+  }
+}

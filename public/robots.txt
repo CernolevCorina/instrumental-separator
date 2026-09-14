@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://instrumental-separator.app/sitemap.xml

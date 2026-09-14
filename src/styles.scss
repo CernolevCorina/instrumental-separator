@@ -1,0 +1,73 @@
+:root {
+  --bg-0: #0a0c16;
+  --bg-1: #12152660;
+  --surface: #ffffff0d;
+  --surface-strong: #ffffff14;
+  --border: #ffffff1c;
+  --border-strong: #ffffff30;
+
+  --text-primary: #f3f4fb;
+  --text-secondary: #a4a9bd;
+  --text-muted: #6d7288;
+
+  --accent-1: #7c5cff;
+  --accent-2: #ff6bb3;
+  --accent-3: #4fd1ff;
+  --gradient-brand: linear-gradient(135deg, var(--accent-1), var(--accent-2));
+  --gradient-brand-soft: linear-gradient(135deg, #7c5cff33, #ff6bb333);
+
+  --success: #3ddc97;
+  --danger: #ff6584;
+
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+
+  --shadow-glow: 0 0 0 1px var(--border), 0 20px 60px -20px #7c5cff40;
+  --font-display: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+app-root {
+  display: block;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--text-primary);
+  background:
+    radial-gradient(1200px 800px at 15% -10%, #2a2160 0%, transparent 60%),
+    radial-gradient(1000px 700px at 100% 0%, #1d3a5f 0%, transparent 55%),
+    radial-gradient(900px 900px at 50% 120%, #3a1746 0%, transparent 55%), var(--bg-0);
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--accent-1);
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: 999px;
+}

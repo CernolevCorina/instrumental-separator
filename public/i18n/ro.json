@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "homeTitle": "Instrumental Separator — Separă vocea de instrumental online, gratuit",
+    "homeDescription": "Separă vocea de instrumental dintr-o melodie direct în browser, gratuit și fără server — încarcă un fișier audio și descarcă instrumentalul sau vocea în MP3 sau WAV.",
+    "termsTitle": "Termeni și Condiții — Instrumental Separator",
+    "termsDescription": "Termenii și condițiile de utilizare pentru Instrumental Separator: responsabilitatea utilizatorului privind drepturile de autor, procesarea locală a fișierelor și limitarea răspunderii."
+  },
+  "nav": {
+    "terms": "Termeni și Condiții"
+  },
+  "footer": {
+    "privacy": "Procesare 100% locală, în browser — fișierele tale nu sunt niciodată trimise pe un server."
+  },
+  "hero": {
+    "badge": "✨ Rulează 100% în browser-ul tău",
+    "title": "Separă <span class=\"hero__gradient\">vocea</span> de <span class=\"hero__gradient\">instrumental</span>",
+    "subtitle": "Încarcă o melodie și obține în câteva minute vocea și instrumentalul, pregătite de descărcat."
+  },
+  "dropzone": {
+    "titleEmpty": "Trage un fișier audio aici",
+    "hintEmpty": "sau apasă pentru a alege un fișier (MP3, WAV, etc.)",
+    "hintFilled": "Click sau trage un alt fișier pentru a-l înlocui"
+  },
+  "termsCheck": {
+    "prefix": "Sunt de acord cu",
+    "linkText": "Termenii și Condițiile",
+    "suffix": "și îmi asum responsabilitatea privind drepturile de autor ale fișierului încărcat."
+  },
+  "actions": {
+    "separate": "Separă vocea de instrumental",
+    "processing": "Se procesează..."
+  },
+  "status": {
+    "loadingModel": "Se descarcă modelul AI (~172MB, prima dată)...",
+    "decoding": "Se decodează fișierul audio...",
+    "separating": "Se separă vocea de instrumental...",
+    "done": "Separare finalizată!"
+  },
+  "error": {
+    "prefix": "Eroare"
+  },
+  "format": {
+    "label": "Format descărcare"
+  },
+  "results": {
+    "instrumental": "Instrumental",
+    "vocals": "Voce",
+    "download": "Descarcă"
+  },
+  "terms": {
+    "back": "← Înapoi la aplicație",
+    "title": "Termeni și Condiții",
+    "updated": "Ultima actualizare: 2026",
+    "s1": {
+      "title": "1. Descrierea serviciului",
+      "body": "Instrumental Separator este o aplicație care rulează integral în browser-ul tău și folosește un model de inteligență artificială (demucs-web) pentru a separa un fișier audio în componenta vocală și componenta instrumentală. Fișierul audio pe care îl încarci <strong>nu este trimis către niciun server</strong> — toată prelucrarea are loc local, pe dispozitivul tău."
+    },
+    "s2": {
+      "title": "2. Responsabilitatea utilizatorului privind drepturile de autor",
+      "body1": "Prin utilizarea acestei aplicații, <strong>îți asumi în totalitate responsabilitatea</strong> pentru fișierele audio pe care le încarci, procesezi, redai sau descarci. Este responsabilitatea ta exclusivă să te asiguri că deții drepturile necesare asupra conținutului respectiv sau că ai permisiunea legală de a-l procesa (de exemplu: conținut propriu, conținut aflat în domeniul public, sau conținut pentru care ai o licență corespunzătoare).",
+      "body2": "Aplicația nu verifică și nu poate verifica statutul drepturilor de autor ale fișierelor încărcate. Dezvoltatorul/operatorul aplicației <strong>nu își asumă nicio răspundere</strong> pentru eventuale încălcări ale drepturilor de autor, reclamații, notificări de eliminare (takedown), litigii sau alte confruntări de natură legală ce pot apărea în urma utilizării aplicației pentru conținut protejat prin drepturi de autor fără autorizarea corespunzătoare. Orice astfel de consecințe cad exclusiv în sarcina utilizatorului care a încărcat fișierul."
+    },
+    "s3": {
+      "title": "3. Fără garanții",
+      "body": "Aplicația este furnizată „ca atare\" (as-is), fără nicio garanție explicită sau implicită privind acuratețea, calitatea sau caracterul complet al rezultatelor separării audio."
+    },
+    "s4": {
+      "title": "4. Limitarea răspunderii",
+      "body": "În limita maximă permisă de lege, dezvoltatorul/operatorul aplicației nu va fi răspunzător pentru niciun fel de daune directe, indirecte, incidentale sau de altă natură rezultate din utilizarea sau imposibilitatea utilizării aplicației, inclusiv, dar fără a se limita la, consecințe legate de drepturi de autor."
+    },
+    "s5": {
+      "title": "5. Acceptarea termenilor",
+      "body": "Prin bifarea căsuței de consimțământ și utilizarea funcției de separare audio, confirmi că ai citit, ai înțeles și ești de acord cu acești Termeni și Condiții în integralitatea lor."
+    }
+  }
+}

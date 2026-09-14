@@ -1,0 +1,34 @@
+<div class="terms">
+  <a class="terms__back" [routerLink]="paths.home">{{ 'terms.back' | translate }}</a>
+
+  <div class="terms__card">
+    <h1>{{ 'terms.title' | translate }}</h1>
+    <p class="terms__updated">{{ 'terms.updated' | translate }}</p>
+
+    <section>
+      <h2>{{ 'terms.s1.title' | translate }}</h2>
+      <p [innerHTML]="'terms.s1.body' | translate"></p>
+    </section>
+
+    <section>
+      <h2>{{ 'terms.s2.title' | translate }}</h2>
+      <p [innerHTML]="'terms.s2.body1' | translate"></p>
+      <p [innerHTML]="'terms.s2.body2' | translate"></p>
+    </section>
+
+    <section>
+      <h2>{{ 'terms.s3.title' | translate }}</h2>
+      <p [innerHTML]="'terms.s3.body' | translate"></p>
+    </section>
+
+    <section>
+      <h2>{{ 'terms.s4.title' | translate }}</h2>
+      <p [innerHTML]="'terms.s4.body' | translate"></p>
+    </section>
+
+    <section>
+      <h2>{{ 'terms.s5.title' | translate }}</h2>
+      <p [innerHTML]="'terms.s5.body' | translate"></p>
+    </section>
+  </div>
+</div>
