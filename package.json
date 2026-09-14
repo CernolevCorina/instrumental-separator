@@ -23,6 +23,7 @@
     "@breezystack/lamejs": "^1.2.7",
     "@ngx-translate/core": "^18.0.0",
     "@ngx-translate/http-loader": "^18.0.0",
+    "@vercel/analytics": "^2.0.1",
     "demucs-web": "^1.0.2",
     "express": "^5.1.0",
     "onnxruntime-web": "^1.29.0",
