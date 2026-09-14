@@ -1,5 +1,4 @@
 import { Injectable, effect, signal } from '@angular/core';
-import { inject as injectVercelAnalytics } from '@vercel/analytics';
 
 export type ConsentChoice = 'accepted' | 'declined';
 
@@ -13,9 +12,10 @@ export class ConsentService {
   constructor() {
     // Pornește Vercel Analytics doar dacă (și de îndată ce) utilizatorul acceptă —
     // atât la reveniri (consimțământ deja stocat), cât și imediat după ce apasă „Accept”.
+    // Import dinamic: scriptul nu e cerut deloc din bundle-ul inițial, ci abia la nevoie.
     effect(() => {
       if (this.consent() === 'accepted' && typeof window !== 'undefined') {
-        injectVercelAnalytics();
+        import('@vercel/analytics').then((m) => m.inject());
       }
     });
   }
