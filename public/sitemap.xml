@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://instrumental-separator.app/</loc>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://instrumental-separator.app/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://instrumental-separator.app/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://instrumental-separator.app/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://instrumental-separator.app/" />
+    <loc>https://instrumental-separator.vercel.app/</loc>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://instrumental-separator.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://instrumental-separator.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://instrumental-separator.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://instrumental-separator.vercel.app/" />
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://instrumental-separator.app/termeni</loc>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://instrumental-separator.app/termeni" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://instrumental-separator.app/termeni" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://instrumental-separator.app/termeni" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://instrumental-separator.app/termeni" />
+    <loc>https://instrumental-separator.vercel.app/termeni</loc>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://instrumental-separator.vercel.app/termeni" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://instrumental-separator.vercel.app/termeni" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://instrumental-separator.vercel.app/termeni" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://instrumental-separator.vercel.app/termeni" />
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
