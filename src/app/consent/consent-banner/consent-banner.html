@@ -1,0 +1,24 @@
+@if (consent() === null) {
+  <div class="consent-banner" role="dialog" aria-live="polite" aria-label="Cookie consent">
+    <p class="consent-banner__text">
+      {{ 'consent.message' | translate }}
+      <a [routerLink]="paths.terms" [fragment]="'cookies'">{{ 'consent.learnMore' | translate }}</a>
+    </p>
+    <div class="consent-banner__actions">
+      <button
+        type="button"
+        class="consent-banner__btn consent-banner__btn--ghost"
+        (click)="decline()"
+      >
+        {{ 'consent.decline' | translate }}
+      </button>
+      <button
+        type="button"
+        class="consent-banner__btn consent-banner__btn--primary"
+        (click)="accept()"
+      >
+        {{ 'consent.accept' | translate }}
+      </button>
+    </div>
+  </div>
+}

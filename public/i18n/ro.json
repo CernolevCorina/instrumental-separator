@@ -9,7 +9,14 @@
     "terms": "Termeni și Condiții"
   },
   "footer": {
-    "privacy": "Procesare 100% locală, în browser — fișierele tale nu sunt niciodată trimise pe un server."
+    "privacy": "Procesare 100% locală, în browser — fișierele tale nu sunt niciodată trimise pe un server.",
+    "cookieSettings": "Setări cookie-uri"
+  },
+  "consent": {
+    "message": "Folosim stocare locală (localStorage) pentru preferința de limbă și, doar dacă accepți, statistici anonime de vizitare (Vercel Analytics, fără cookie-uri, fără date personale).",
+    "learnMore": "Detalii",
+    "accept": "Accept",
+    "decline": "Refuz"
   },
   "hero": {
     "badge": "✨ Rulează 100% în browser-ul tău",
@@ -71,6 +78,13 @@
     "s5": {
       "title": "5. Acceptarea termenilor",
       "body": "Prin bifarea căsuței de consimțământ și utilizarea funcției de separare audio, confirmi că ai citit, ai înțeles și ești de acord cu acești Termeni și Condiții în integralitatea lor."
+    },
+    "s6": {
+      "title": "6. Cookie-uri și stocare locală",
+      "body1": "Această aplicație <strong>nu folosește cookie-uri tradiționale</strong>. Folosim exclusiv stocarea locală a browser-ului (<code>localStorage</code>), care rămâne pe dispozitivul tău și nu este trimisă către niciun server:",
+      "item1": "<strong>Preferința de limbă</strong> și <strong>alegerea privind cookie-urile</strong> — strict necesare pentru funcționarea aplicației.",
+      "item2": "<strong>Vercel Web Analytics</strong> (opțional, doar dacă accepți) — statistici anonime și agregate despre vizitele pe site (pagini vizualizate, țară aproximativă). Nu folosește cookie-uri, nu creează un profil al tău și nu colectează date cu caracter personal identificabile.",
+      "body2": "Îți poți schimba oricând alegerea privind statisticile din linkul „Setări cookie-uri” aflat în subsolul paginii."
     }
   }
 }

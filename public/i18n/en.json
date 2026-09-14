@@ -9,7 +9,14 @@
     "terms": "Terms & Conditions"
   },
   "footer": {
-    "privacy": "100% local processing, right in your browser — your files are never sent to a server."
+    "privacy": "100% local processing, right in your browser — your files are never sent to a server.",
+    "cookieSettings": "Cookie settings"
+  },
+  "consent": {
+    "message": "We use local storage (localStorage) for your language preference and, only if you accept, anonymous visit statistics (Vercel Analytics, cookie-free, no personal data).",
+    "learnMore": "Learn more",
+    "accept": "Accept",
+    "decline": "Decline"
   },
   "hero": {
     "badge": "✨ Runs 100% in your browser",
@@ -71,6 +78,13 @@
     "s5": {
       "title": "5. Acceptance of terms",
       "body": "By checking the consent box and using the audio separation feature, you confirm that you have read, understood, and agree to these Terms & Conditions in their entirety."
+    },
+    "s6": {
+      "title": "6. Cookies and local storage",
+      "body1": "This application <strong>does not use traditional cookies</strong>. We only use your browser's local storage (<code>localStorage</code>), which stays on your device and is never sent to a server:",
+      "item1": "<strong>Language preference</strong> and <strong>cookie choice</strong> — strictly necessary for the app to work.",
+      "item2": "<strong>Vercel Web Analytics</strong> (optional, only if you accept) — anonymous, aggregated visit statistics (pages viewed, approximate country). It uses no cookies, builds no profile of you, and collects no personally identifiable data.",
+      "body2": "You can change your analytics choice at any time from the “Cookie settings” link in the page footer."
     }
   }
 }

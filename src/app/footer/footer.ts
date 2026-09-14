@@ -1,5 +1,6 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
+import { ConsentService } from '../consent/consent.service';
 
 @Component({
   selector: 'app-footer',
@@ -9,5 +10,11 @@ import { TranslatePipe } from '@ngx-translate/core';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class Footer {
+  private readonly consentService = inject(ConsentService);
+
   protected readonly year = new Date().getFullYear();
+
+  openCookieSettings(): void {
+    this.consentService.reset();
+  }
 }

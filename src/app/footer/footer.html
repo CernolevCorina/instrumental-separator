@@ -3,5 +3,10 @@
     <span class="footer__dot"></span>
     {{ 'footer.privacy' | translate }}
   </p>
-  <p class="footer__copy">© {{ year }} Instrumental Separator</p>
+  <p class="footer__copy">
+    © {{ year }} Instrumental Separator ·
+    <button type="button" class="footer__link" (click)="openCookieSettings()">
+      {{ 'footer.cookieSettings' | translate }}
+    </button>
+  </p>
 </footer>

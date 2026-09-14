@@ -68,3 +68,17 @@ p {
     color: var(--text-primary);
   }
 }
+
+ul {
+  margin: 0 0 0.75rem;
+  padding-left: 1.25rem;
+  color: var(--text-secondary);
+
+  li {
+    margin-bottom: 0.35rem;
+  }
+
+  strong {
+    color: var(--text-primary);
+  }
+}
