@@ -11,15 +11,15 @@ export const LANGUAGE_LABELS: Record<AppLanguage, string> = {
 const STORAGE_KEY = 'instrumental-separator:lang';
 
 export function detectInitialLanguage(): AppLanguage {
-  // Pe server (SSR/prerender) nu există window/localStorage — randăm mereu
-  // varianta română, limba canonică a paginii prerandate.
+  // On the server (SSR/prerender) window/localStorage don't exist — always render
+  // the Romanian variant, the canonical language of the prerendered page.
   if (typeof window === 'undefined') return 'ro';
 
   try {
     const stored = localStorage.getItem(STORAGE_KEY);
     if (isSupportedLanguage(stored)) return stored;
   } catch {
-    // localStorage poate fi indisponibil (mod privat etc.)
+    // localStorage may be unavailable (private mode, etc.)
   }
 
   const browserLang = navigator.language?.slice(0, 2).toLowerCase();
@@ -32,7 +32,7 @@ export function persistLanguage(lang: AppLanguage): void {
   try {
     localStorage.setItem(STORAGE_KEY, lang);
   } catch {
-    // localStorage poate fi indisponibil (mod privat etc.)
+    // localStorage may be unavailable (private mode, etc.)
   }
 }
 

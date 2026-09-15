@@ -8,16 +8,16 @@ import { SITE_URL } from './seo.config';
 export interface SeoPage {
   title: string;
   description: string;
-  /** Calea rutei, fără domeniu, ex: '/' sau '/termeni'. */
+  /** Route path, without domain, e.g. '/' or '/termeni'. */
   path: string;
 }
 
 export interface SeoPageBinding {
-  /** Cheie de traducere pentru <title> / og:title / twitter:title. */
+  /** Translation key for <title> / og:title / twitter:title. */
   titleKey: string;
-  /** Cheie de traducere pentru meta description / og:description / twitter:description. */
+  /** Translation key for meta description / og:description / twitter:description. */
   descriptionKey: string;
-  /** Calea rutei, fără domeniu, ex: '/' sau '/termeni'. */
+  /** Route path, without domain, e.g. '/' or '/termeni'. */
   path: string;
 }
 
@@ -29,9 +29,9 @@ export class SeoService {
   private readonly translate = inject(TranslateService);
 
   /**
-   * Leagă titlul și descrierea unei pagini de cheile de traducere date, actualizându-le
-   * reactiv (inclusiv <html lang>) de fiecare dată când limba activă se schimbă. Trebuie
-   * apelat dintr-un context de injecție (ex. constructorul componentei de pagină).
+   * Binds a page's title and description to the given translation keys, updating them
+   * reactively (including <html lang>) whenever the active language changes. Must be
+   * called from an injection context (e.g. the page component's constructor).
    */
   bindPage(binding: SeoPageBinding): void {
     effect(() => {

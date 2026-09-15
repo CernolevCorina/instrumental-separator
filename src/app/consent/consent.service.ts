@@ -6,13 +6,13 @@ const CONSENT_KEY = 'instrumental-separator:cookie-consent';
 
 @Injectable({ providedIn: 'root' })
 export class ConsentService {
-  /** `null` = utilizatorul nu s-a pronunțat încă (bannerul trebuie afișat). */
+  /** `null` = the user hasn't made a choice yet (the banner must be shown). */
   readonly consent = signal<ConsentChoice | null>(readStoredConsent());
 
   constructor() {
-    // Pornește Vercel Analytics doar dacă (și de îndată ce) utilizatorul acceptă —
-    // atât la reveniri (consimțământ deja stocat), cât și imediat după ce apasă „Accept”.
-    // Import dinamic: scriptul nu e cerut deloc din bundle-ul inițial, ci abia la nevoie.
+    // Start Vercel Analytics only if (and as soon as) the user accepts —
+    // both on return visits (consent already stored) and right after clicking "Accept".
+    // Dynamic import: the script isn't needed in the initial bundle, only on demand.
     effect(() => {
       if (this.consent() === 'accepted' && typeof window !== 'undefined') {
         import('@vercel/analytics').then((m) => m.inject());
@@ -28,7 +28,7 @@ export class ConsentService {
     this.setConsent('declined');
   }
 
-  /** Retrage alegerea curentă, ca bannerul să poată fi afișat din nou. */
+  /** Clears the current choice so the banner can be shown again. */
   reset(): void {
     this.consent.set(null);
     try {

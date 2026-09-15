@@ -4,7 +4,7 @@ import { Terms } from './terms/terms';
 
 const TERMS_SEGMENT = 'termeni';
 
-/** Căi canonice, absolute, folosite pentru navigare (routerLink) și SEO (canonical/hreflang). */
+/** Canonical, absolute paths used for navigation (routerLink) and SEO (canonical/hreflang). */
 export const APP_PATHS = {
   home: '/',
   terms: `/${TERMS_SEGMENT}`,

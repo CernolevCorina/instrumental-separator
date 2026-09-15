@@ -1,3 +1,3 @@
-// Folosit pentru canonical, hreflang și Open Graph (URL-uri absolute, cerute de
-// motoarele de căutare și de crawlerele de social media).
+// Used for canonical, hreflang, and Open Graph (absolute URLs, required by
+// search engines and social media crawlers).
 export const SITE_URL = 'https://instrumental-separator.vercel.app';

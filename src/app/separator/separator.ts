@@ -133,7 +133,7 @@ export class Separator {
       this.vocalsUrl.set(URL.createObjectURL(audioBufferToWavBlob(vocals)));
       this.instrumentalUrl.set(URL.createObjectURL(audioBufferToWavBlob(instrumental)));
     } catch {
-      // mesajul de eroare e deja setat în DemucsService
+      // error message is already set in DemucsService
     } finally {
       this.isProcessing.set(false);
     }
@@ -152,8 +152,8 @@ export class Separator {
   private async encodeAndDownload(buffer: AudioBuffer, suffix: string): Promise<void> {
     this.isDownloading.set(true);
     try {
-      // Așteaptă un tick ca UI-ul să apuce să arate starea de încărcare
-      // înainte de codificarea sincronă (poate dura câteva secunde pentru MP3).
+      // Wait a tick so the UI can show the loading state
+      // before the synchronous encoding (can take a few seconds for MP3).
       await new Promise((resolve) => setTimeout(resolve, 0));
 
       const format = this.downloadFormat();
